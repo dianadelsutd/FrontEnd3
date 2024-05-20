@@ -1,0 +1,19 @@
+.list-container{
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: auto auto auto auto;
+  background-color: blue;
+}
+
+button{
+  font-weight:700 ;
+  border: none;
+  border-radius: 10px;
+  min-width: 10px;
+  min-height: 30px;
+  background-color: blue; 
+}
+
+h3,h4{
+  margin: 10px;
+}

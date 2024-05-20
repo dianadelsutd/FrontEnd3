@@ -1,0 +1,55 @@
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-color: transparent;
+    color:white;
+}
+
+.cardImg{
+    width: 280px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cardContainer h3{
+    color: white;
+}
+
+.btnGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btnGroup button{
+    min-width: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    margin: 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.btnGroup button:hover {
+    box-shadow: 2px 2px 5px #000;
+}
+
+.btnGroup button:focus,
+button:focus-visible {
+  outline:none;
+}
+
+.cartBtn {
+    background-color: transparent;
+    border: 1px solid firebrick;
+    color:firebrick;
+    transition: .3s;
+}
+.cartBtn:hover {
+    box-shadow: 2px 2px 5px #000;
+}
